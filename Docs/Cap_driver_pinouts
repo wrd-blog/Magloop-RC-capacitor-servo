@@ -1,0 +1,37 @@
+Arduino pinout for the magloop antenna tuner driver
+
+FUNCTION        ARDUINO PIN         Cable connector    Servo          Buck regulator
++12 volts in    Vin (jack)                                              in+
+Ground          gnd                 1                   brown            
+PULSE           3                   2                   orange
++5V servo                           5                   red             out+
+spd             A0
+pwrSwitch       10  (from voltage divider connected to regulator out+)
+Ground plane    gnd                                                      in-, out-
+upButton        8   connected to the runUp button
+dnButton        7   connected to the runDn button
+homeButton      2   connected to the home button
+savePosButton   1   connected to the save position button
+setPosButton    12  connected to the set position button
+slowSlewButton  9   connected to the slow slew button
+SCL             A5  SCL clock signal to the LCD
+SDA             A4  SDA data signal to the LCD
+LCD Vdd         5V  power to the LCD
+uC reset        reset connected to the reset button 
+spd pot ref     5V  reference voltage to the speed potentiometer
+          
+
+####### connections to the serial SCD.
+####### use library "LiquidCrystal_I2C_Hangul"
+SDA             A4 (analog in section)             
+SCL             A5 (analog in section)
+VCC             +5V
+GND             GND
+
+
+
+
+
+
+
+  
