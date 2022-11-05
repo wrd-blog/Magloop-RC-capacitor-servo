@@ -14,26 +14,26 @@ Software source files are:<br>
     
 Connections to the Arduino Uno:<br>
 <ul>
-   <li>Cap_driver_pinouts.txt
+   <li>Docs/Cap_driver_pinouts.txt
    
 </ul>
 
 Controller Schematic:<br>
 <ul>
-<li>controller_schematic.svg
-<li>controller_schematic.pdf
+<li>Docs/controller_schematic.svg
+<li>Docs/controller_schematic.pdf
 </ul>
 
 Images of the prototype:<br>
 <ul>
-<li>controller_interior.jpg
-<li>controller_exterior.jpg
-<li>controller_back_panel.jpg
+<li>img/controller_interior.jpg
+<li>img/controller_exterior.jpg
+<li>img/controller_back_panel.jpg
 </ul>
 
 Project history and design notes:<br>
 <ul>
-<li>servo_design_notes.md
+<li>Docs/servo_design_notes.md
 </ul>
 
 See the pwmServo-1.ino source file for further notes.
