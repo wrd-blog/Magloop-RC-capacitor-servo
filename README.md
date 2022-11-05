@@ -1,7 +1,8 @@
 ## magloop-antenna project
 ### RC Servo-Based Capacitor Driver Design Files
 
-Design files for my 20M magnetic loop antenna servo motor capacitor driver
+Design files for my 20M magnetic loop antenna servo motor capacitor driver<br>
+Design files are contained in folder "pwmServo-1". This folder is an Arduino project folder.<br>
 
 This repo contains hardware construction details as well as software source code (Arduino) for the RC servo motor driver which rotates the antenna's variable tuning capacitor.
 
