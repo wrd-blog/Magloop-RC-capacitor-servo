@@ -1,4 +1,5 @@
 ## RC Servo Capacitor Driver Design Files<br>
+<p> NOTE: 12/15/23: Due to problems with servo jitter causing amplitude modulation of the received and transmitted signals, the servo and the Arduino software are being redesigned to add PID control of the servo. An Arduino Nano microcontroller board will be added to the servo to implement the PID control functions. Those changes, once tested, will be added to this repository.
 <p>
 The original design of this magloop antenna capacitor driver used a stepper motor driven by an Arduino Uno and a Chinese microstepper stepper motor driver module.
 <p>
@@ -12,3 +13,4 @@ The RC servo only requires three connections; 5 volt power, ground, and a PWM si
 <p>
 This servo pulls enough current from the 5 volt supply that the regulator on-board the Uno is unable to supply it. I added a 12 volt to 5 volt switching converter from Amazon to supply power to the servo.
 <p>
+

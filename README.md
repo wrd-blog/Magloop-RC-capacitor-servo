@@ -6,6 +6,9 @@ Design files are contained in folder "pwmServo-1". This folder is an Arduino pro
 
 This repo contains hardware construction details as well as software source code (Arduino) for the RC servo motor driver which rotates the antenna's variable tuning capacitor.
 
+<p> NOTE: 12/15/23: Due to problems with servo jitter causing amplitude modulation of the received and transmitted signals, the servo and the Arduino software are being redesigned to add PID control of the servo. An Arduino Nano microcontroller board will be added to the servo to implement the PID control functions. Those changes, once tested, will be added to this repository.
+<p>
+
 Software source files are:<br>
 <ul>
     <li>pwmServo-1.ino<br>
