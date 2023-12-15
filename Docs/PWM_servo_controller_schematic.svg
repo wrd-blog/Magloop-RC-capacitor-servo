@@ -7,9 +7,9 @@
    viewBox="0 0 279.4 215.9"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="PWM_servo_controller.svg"
-   inkscape:export-filename="magloop_cap-drv_schematic.png"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="PWM_servo_controller_schematic.svg"
+   inkscape:export-filename="magloop_cap-drv_schematic.pdf"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,12 +28,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.969248"
-     inkscape:cx="557.64882"
-     inkscape:cy="729.94734"
+     inkscape:cx="739.74875"
+     inkscape:cy="324.47836"
      inkscape:window-width="1366"
-     inkscape:window-height="737"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="840"
+     inkscape:window-x="344"
+     inkscape:window-y="94"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      showguides="true">
@@ -1914,18 +1914,6 @@
          style="fill:#000000;fill-opacity:1;stroke-width:0.0424079"
          x="28.761208"
          y="76.393402">10k</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:2.356px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:none;stroke:#000000;stroke-width:0.0424079;stroke-opacity:1"
-       x="213.49364"
-       y="92.78978"
-       id="text23845-2-7"
-       transform="scale(0.9630716,1.0383444)"><tspan
-         sodipodi:role="line"
-         id="tspan23843-3-5"
-         style="fill:#000000;fill-opacity:1;stroke-width:0.0424079"
-         x="213.49364"
-         y="92.78978">.01uF</tspan></text>
     <g
        id="g9783-6"
        transform="translate(28.528603,-70.90199)">
@@ -2500,5 +2488,17 @@
          style="stroke-width:0.2286"
          x="174.96637"
          y="213.07536">CREATED WITH INKSCAPE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.356px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:none;stroke:#000000;stroke-width:0.0424079;stroke-opacity:1"
+       x="76.799309"
+       y="158.19763"
+       id="text23845-2-36"
+       transform="scale(0.9630716,1.0383444)"><tspan
+         sodipodi:role="line"
+         id="tspan23843-3-7"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.0424079"
+         x="76.799309"
+         y="158.19763">.01uF</tspan></text>
   </g>
 </svg>
